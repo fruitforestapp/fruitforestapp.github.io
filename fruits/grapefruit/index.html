@@ -15,55 +15,7 @@
 <meta property="og:image" content="https://fruitforestapp.github.io/icon-512.png">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://fruitforestapp.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Fruit library", "item": "https://fruitforestapp.github.io/fruits/"}, {"@type": "ListItem", "position": 3, "name": "Grapefruit", "item": "https://fruitforestapp.github.io"}]}</script>
-<style>
-:root{--ink:#F3F1EA;--muted:#AFC2B8;--line:rgba(255,255,255,.12);--gold:#E9B949;--coral:#FF8A7A;--bg:#0E1813}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
- background:radial-gradient(700px 600px at 100% -10%,rgba(232,72,85,.24),transparent 70%),
- radial-gradient(700px 700px at -20% 60%,rgba(245,165,36,.13),transparent 70%),var(--bg);background-attachment:fixed;min-height:100vh}
-a{color:#FFB4A8}
-.wrap{max-width:960px;margin:0 auto;padding:0 22px}
-header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
-.brand img{width:44px;height:44px;border-radius:12px}
-.brand b{font:600 24px Georgia,"Times New Roman",serif}.brand i{color:var(--coral);font-weight:500}
-nav.links{display:flex;gap:6px;flex-wrap:wrap}
-nav.links a{color:var(--muted);text-decoration:none;font-size:14.5px;padding:6px 10px;border-radius:99px}
-nav.links a:hover,nav.links a[aria-current]{color:var(--ink);background:rgba(255,255,255,.07)}
-.crumbs{font-size:14px;color:var(--muted);margin:6px 0 0}.crumbs a{color:var(--muted)}
-h1{font:600 clamp(34px,6vw,52px)/1.05 Georgia,"Times New Roman",serif;margin:10px 0 6px}
-h1 .em{font-size:.8em}
-.latin{color:var(--muted);font-style:italic;margin:0 0 14px}
-.lead{font-size:18.5px;color:#DDE5DF;margin:0 0 18px}
-h2{font:600 26px Georgia,serif;margin:38px 0 8px}
-h3{font:600 19px Georgia,serif;margin:18px 0 4px;color:#FFD9A0}
-.panel{background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:22px;padding:6px 24px 18px;margin:14px 0}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
-.fact{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:16px;padding:10px 14px}
-.fact b{display:block;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:600}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:14px 0}
-.card{display:block;text-decoration:none;color:var(--ink);background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.035));border:1px solid var(--line);border-radius:18px;padding:14px 16px}
-.card:hover{border-color:rgba(255,180,168,.5)}
-.card .em{font-size:26px}.card b{display:block;font:600 18px Georgia,serif;margin:2px 0}.card span{color:var(--muted);font-size:14.5px}
-table{width:100%;border-collapse:collapse;font-size:15px}
-th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--gold);font-weight:600;font-size:13px;letter-spacing:.05em;text-transform:uppercase;position:sticky;top:0;background:#14211b}
-.tablewrap{max-height:640px;overflow:auto;border:1px solid var(--line);border-radius:16px}
-input.filter{width:100%;font:inherit;padding:10px 14px;border-radius:99px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:var(--ink);margin:6px 0 10px}
-ol.steps li{margin:6px 0}
-.pill{display:inline-block;padding:1px 10px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid var(--line);font-size:13.5px;margin:2px 4px 2px 0}
-.cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:linear-gradient(135deg,rgba(255,122,107,.18),rgba(247,183,51,.14));border:1px solid rgba(255,180,120,.35);border-radius:22px;padding:16px 20px;margin:30px 0}
-.cta img{width:56px;height:56px;border-radius:14px}
-.cta>div:first-of-type{flex:1;min-width:230px}.cta b{font:600 20px Georgia,serif}.ctal{margin:6px 0 0;padding-left:20px;color:#E6ECE8;font-size:15.5px}.ctal li{margin:2px 0}.ctab{display:flex;flex-direction:column;gap:8px;align-items:flex-start}.more{font-size:14.5px}
-.shots{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 14px;scroll-snap-type:x mandatory}.shots figure{margin:0;flex:0 0 230px;scroll-snap-align:start}.shots img{width:230px;border-radius:22px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.45)}.shots figcaption{font-size:14.5px;color:#DDE5DF;margin-top:8px}
-.feat{display:grid;grid-template-columns:260px 1fr;gap:28px;align-items:center;margin:34px 0}.feat img{width:260px;border-radius:24px;border:1px solid var(--line);box-shadow:0 16px 40px rgba(0,0,0,.45)}.feat.r{grid-template-columns:1fr 260px}.feat.r img{order:2}@media (max-width:720px){.feat,.feat.r{grid-template-columns:1fr}.feat.r img{order:0}.feat img{width:220px}}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:99px;font-weight:700;text-decoration:none;color:#2A0F0C;background:linear-gradient(135deg,#FF7A6B,#F7B733)}
-.swatch{display:inline-block;width:18px;height:18px;border-radius:50%;vertical-align:-3px;margin-right:6px;border:1px solid rgba(255,255,255,.3)}
-.bar{display:inline-block;height:8px;border-radius:9px;background:var(--gold);vertical-align:middle}
-.note{color:var(--muted);font-size:14px}
-footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;color:var(--muted);font-size:14px}
-footer a{color:var(--muted)}footer .row{display:flex;flex-wrap:wrap;gap:16px}
-</style>
+<link rel="stylesheet" href="/library.css?v=2">
 </head>
 <body>
 <div class="wrap">
@@ -84,10 +36,10 @@ footer a{color:var(--muted)}footer .row{display:flex;flex-wrap:wrap;gap:16px}
 <h3>From seed</h3><p>Usually yes, but seedlings take many years to fruit.</p><h3>Ways to make more plants</h3><ol><li><b><a href="/grafting/t-bud-shield-bud/">T-bud (shield bud)</a></b>: In warm weather while the bark slips.</li><li><b><a href="/propagating/air-layering/">Air layering</a></b>: In spring or summer.</li></ol>
 </div>
 <h2 id="varieties">Grapefruit varieties (6)</h2>
-<p class="note">Type to search by name, origin or notes.</p>
+<p class="note">Tap a name for its page and photos. Type to search by name, origin or notes.</p>
 <input class="filter" type="search" placeholder="Search 6 grapefruit…" aria-label="Search varieties" oninput="ff(this)">
 <div class="tablewrap"><table><thead><tr><th>Variety</th><th>Origin</th><th>Year</th><th>Type</th><th>Zones</th><th>Notes</th></tr></thead><tbody>
-<tr><td>Marsh</td><td>Florida, US</td><td>1860</td><td>White</td><td>9–11</td><td>Seedless white grapefruit, tangy.</td></tr><tr><td>Melogold</td><td>California, US</td><td>1986</td><td>Pummelo hybrid</td><td>9–11</td><td>Large, sweet, juicy, low bitterness.</td></tr><tr><td>Oro Blanco</td><td>California, US</td><td>1980</td><td>Pummelo hybrid</td><td>9–11</td><td>Sweet, low acid, no bitterness, thick rind.</td></tr><tr><td>Rio Red</td><td>Texas, US</td><td>1984</td><td>Red</td><td>9–11</td><td>Deep red, sweet, the main Texas grapefruit.</td></tr><tr><td>Ruby Red</td><td>Texas, US</td><td>1929</td><td>Red</td><td>9–11</td><td>The first patented grapefruit, red-blushed flesh.</td></tr><tr><td>Star Ruby</td><td>Texas, US</td><td>1970</td><td>Red</td><td>9–11</td><td>Very deep red, nearly seedless.</td></tr>
+<tr><td><a href="/fruits/grapefruit/marsh/">Marsh</a></td><td>Florida, US</td><td>1860</td><td>White</td><td>9–11</td><td>Seedless white grapefruit, tangy.</td></tr><tr><td><a href="/fruits/grapefruit/melogold/">Melogold</a></td><td>California, US</td><td>1986</td><td>Pummelo hybrid</td><td>9–11</td><td>Large, sweet, juicy, low bitterness.</td></tr><tr><td><a href="/fruits/grapefruit/oro-blanco/">Oro Blanco</a></td><td>California, US</td><td>1980</td><td>Pummelo hybrid</td><td>9–11</td><td>Sweet, low acid, no bitterness, thick rind.</td></tr><tr><td><a href="/fruits/grapefruit/rio-red/">Rio Red</a></td><td>Texas, US</td><td>1984</td><td>Red</td><td>9–11</td><td>Deep red, sweet, the main Texas grapefruit.</td></tr><tr><td><a href="/fruits/grapefruit/ruby-red/">Ruby Red</a></td><td>Texas, US</td><td>1929</td><td>Red</td><td>9–11</td><td>The first patented grapefruit, red-blushed flesh.</td></tr><tr><td><a href="/fruits/grapefruit/star-ruby/">Star Ruby</a></td><td>Texas, US</td><td>1970</td><td>Red</td><td>9–11</td><td>Very deep red, nearly seedless.</td></tr>
 </tbody></table></div>
 <script>function ff(i){var q=i.value.toLowerCase();i.nextElementSibling.querySelectorAll('tbody tr').forEach(function(r){r.hidden=q&&r.textContent.toLowerCase().indexOf(q)<0})}</script>
 </main>
